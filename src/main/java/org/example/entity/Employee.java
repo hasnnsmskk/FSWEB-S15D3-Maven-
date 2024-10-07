@@ -35,7 +35,7 @@ public class Employee {
         return id == employee.id;
     }
 
-    // Hashcode metodu, id'ye göre hash hesaplar. HashMap'lerde doğru çalışması için gerekli.
+
     @Override
     public int hashCode() {
         return Objects.hashCode(id);
